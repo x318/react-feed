@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "prisma": "2.28.0"
+  },
+  "scripts": {
+    "build": "npm i && cd frontend && npm i && npm run build",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "name": "react-feed",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^2.28.0",
+    "autoprefixer": "^9.8.6",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.12",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^1.8.9"
+  },
+  "engines": {
+    "node": "15.x"
+  }
+}
